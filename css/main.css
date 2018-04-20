@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .coluna img {
+    width: 30%;
+  }
+}
+.linha {
+  display: flex;
+  justify-content: center;
+}
+
+.coluna {
+  width: 300px;
+  padding: 30px 10px;
+}
+.coluna img {
+  width: 100%;
+}
+.coluna .grupo-input {
+  width: 200px;
+}
+.coluna textarea {
+  width: 300px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
