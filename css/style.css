@@ -1,7 +1,7 @@
 #logo{
     display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 200px; 
 }
 
 .linha{
@@ -10,7 +10,7 @@ justify-content: center;
 }
 
 .coluna{
-width:300px;
+width:300px; 
 padding:30px 10px;
 }
 
@@ -25,9 +25,4 @@ input,label,textarea{
 
 .grupo-input{
     margin-top: 10px;
-}
-
-ul{
-    list-style: none;
-    padding-left: 0;
 }
